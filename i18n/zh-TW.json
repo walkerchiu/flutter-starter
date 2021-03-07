@@ -1,0 +1,58 @@
+{
+    "menu": {
+        "title": "Menu",
+        "home": "首頁",
+        "profile": "我的檔案",
+        "news": "新聞",
+        "event": "事件",
+        "message": "訊息",
+        "aboutus": "關於我們",
+        "terms": "承諾與條款",
+        "policy": "隱私政策",
+        "language": "介面語系: {nick}"
+    },
+
+    "tab": {
+        "news": "新聞",
+        "event": "事件",
+        "message": "訊息"
+    },
+
+    "i18n": {
+        "select": "請選擇語系",
+        "en": {
+            "US": {
+                "name": "English",
+                "nick": "EN"
+            }
+        },
+        "zh": {
+            "TW": {
+                "name": "中文",
+                "nick": "ZH"
+            }
+        }
+    },
+
+    "validate": {
+        "header": "請修正錯誤",
+        "lengthMin": "輸入內容過短"
+    },
+
+    "home": "首頁",
+    "back": "上一頁",
+    "info": "提示",
+    "loading": "讀取中...",
+    "error": "錯誤!",
+    "empty": "無任何資料",
+  
+    "myprofile_memberID": "Member Id",
+    "myprofile_market": "Market",
+  
+    "memberIDField": "Member ID",
+    "memberIDHint": "Member ID",
+    "passwordField": "Password",
+    "passwordHint": "Password",
+    "errorMessage": "請修正錯誤",
+    "btnLogin": "登入"
+}
