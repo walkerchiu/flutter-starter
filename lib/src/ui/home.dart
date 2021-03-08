@@ -30,6 +30,7 @@ class HomeState extends State<Home> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       key: _scaffoldKey,
       appBar: AppBar(
         automaticallyImplyLeading: false,
