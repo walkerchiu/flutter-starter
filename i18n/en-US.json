@@ -1,0 +1,57 @@
+{
+    "menu": {
+        "title": "Menu",
+        "home": "Home",
+        "profile": "My Profile",
+        "news": "News",
+        "event": "Event",
+        "message": "Message",
+        "aboutus": "About us",
+        "terms": "Terms & Conditions",
+        "policy": "Privacy Policy",
+        "language": "Language: {nick}"
+    },
+
+    "tab": {
+        "news": "News",
+        "event": "Event",
+        "message": "Message"
+    },
+
+    "i18n": {
+        "select": "Select Language",
+        "en": {
+            "US": {
+                "name": "English",
+                "nick": "EN"
+            }
+        },
+        "zh": {
+            "TW": {
+                "name": "中文",
+                "nick": "ZH"
+            }
+        }
+    },
+
+    "validate": {
+        "header": "Please fix all the errors",
+        "lengthMin": "Too short"
+    },
+
+    "home": "HOME",
+    "back": "BACK",
+    "info": "Info",
+    "loading": "Loading...",
+    "error": "Error!",
+    "empty": "No Record Found",
+  
+    "myprofile_memberID": "Member Id",
+    "myprofile_market": "Market",
+  
+    "memberIDField": "Member ID",
+    "memberIDHint": "Member ID",
+    "passwordField": "Password",
+    "passwordHint": "Password",
+    "btnLogin": "Login in"
+}
