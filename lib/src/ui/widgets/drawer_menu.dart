@@ -5,6 +5,8 @@ import 'package:flutterstarter/generated/i18n.dart';
 import 'package:flutterstarter/src/ui/home.dart';
 import 'package:flutterstarter/src/ui/screens/myprofile.dart';
 import 'package:flutterstarter/src/ui/screens/aboutus.dart';
+import 'package:flutterstarter/src/ui/screens/terms.dart';
+import 'package:flutterstarter/src/ui/screens/policy.dart';
 import 'package:flutterstarter/src/ui/screens/news.dart';
 import 'package:flutterstarter/src/ui/screens/event.dart';
 import 'package:flutterstarter/src/ui/screens/message.dart';
@@ -160,7 +162,7 @@ class DrawerMenuState extends State<DrawerMenu> with SingleTickerProviderStateMi
                   title: Text(I18n.of(context).menuTerms, style: TextStyle(color: Colors.white)),
                   contentPadding: EdgeInsets.symmetric(horizontal: 32.0),
                   onTap: () {
-                    
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => TermsScreen()));
                   }
                 ),
                 Divider(height: 2.0, color: Colors.white),
@@ -168,7 +170,7 @@ class DrawerMenuState extends State<DrawerMenu> with SingleTickerProviderStateMi
                   title: Text(I18n.of(context).menuPolicy, style: TextStyle(color: Colors.white)),
                   contentPadding: EdgeInsets.symmetric(horizontal: 32.0),
                   onTap: () {
-                    
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => PolicyScreen()));
                   }
                 ),
                 Divider(height: 2.0, color: Colors.white),
